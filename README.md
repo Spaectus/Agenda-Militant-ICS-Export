@@ -22,3 +22,8 @@ cargo run --release
 ```
 
 Then go to `http://localhost:8080/` to get the activist agenda as an ical file.
+
+If you wish to specify a particular port (8000 for example):
+```
+cargo run --release -- --port 8000
+```
