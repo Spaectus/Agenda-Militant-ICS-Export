@@ -11,7 +11,7 @@ This program allows you to create a web service distributing the french activist
 ## Manual installation
 
 ```
-git clone
+git clone git clone https://github.com/Spaectus/Agenda-Militant-ICS-Export.git
 cargo build --release
 ```
 
@@ -21,4 +21,4 @@ cargo build --release
 cargo run --release
 ```
 
-Then go to `http://localhost:8080/` to get the agenda militant as an ical file.
+Then go to `http://localhost:8080/` to get the activist agenda as an ical file.
