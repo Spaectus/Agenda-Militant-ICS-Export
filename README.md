@@ -27,3 +27,10 @@ If you wish to specify a particular port (8000 for example):
 ```
 cargo run --release -- --port 8000
 ```
+
+# Docker
+
+```shell
+docker build -t agenda_militant_ics_export:distroless .
+docker run -d --rm --name agenda_militant_ics_export -p 80:8080 agenda_militant_ics_export:distroless
+```
